@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #213547;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Themed Colors */
+
+  /* Spring Colors */
+  --spring-early: #E8F5E8;      /* Soft mint green */
+  --spring-bloom: #FFB6C1;      /* Cherry blossom pink */
+  --spring-fresh: #98FB98;      /* Pale green */
+  --spring-bright: #32CD32;     /* Lime green */
+  
+  /* Summer Colors */
+  --summer-dawn: #87CEEB;       /* Sky blue */
+  --summer-sun: #FFD700;        /* Golden yellow */
+  --summer-warm: #FF7F50;       /* Coral */
+  --summer-deep: #4169E1;       /* Royal blue */
+  
+  /* Fall Colors */
+  --fall-golden: #DAA520;       /* Goldenrod */
+  --fall-orange: #FF8C00;       /* Dark orange */
+  --fall-red: #DC143C;          /* Crimson */
+  --fall-rust: #A0522D;         /* Sienna brown */
+  
+  /* Winter Colors */
+  --winter-frost: #F0F8FF;      /* Alice blue */
+  --winter-ice: #B0E0E6;        /* Powder blue */
+  --winter-deep: #191970;       /* Midnight blue */
+  --winter-night: #2F4F4F;      /* Dark slate gray */
+
+  /* Transitional Colors */
+  --pink-to-green: #C4D4C7;     /* Pink to green blend */
+  --green-to-blue: #7DD3C0;     /* Green to blue blend (you have this) */
+  --blue-to-yellow: #B3E5D1;    /* Blue to yellow blend */
+  --yellow-to-orange: #FFE135;  /* Yellow to orange blend */
+  --orange-to-red: #FF6B47;     /* Orange to red blend */
+  --red-to-purple: #8B4B8C;     /* Red to purple blend */
+  --purple-to-blue: #5D5FEF;    /* Purple back to blue blend */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  font-weight: 500;
+  color: #2563eb;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
